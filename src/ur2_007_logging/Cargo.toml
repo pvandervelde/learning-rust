@@ -1,0 +1,15 @@
+[package]
+name = "ur2_007_logging"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+# I'm glad you came to add the `log` dependency! I got it all ready for you, just uncomment:
+#
+log = "0.4"
+
+# And here's the env_logger dependency that you'll need in main.rs
+#
+env_logger = "0.9"
